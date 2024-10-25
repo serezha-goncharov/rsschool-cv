@@ -55,8 +55,8 @@ rather than check how others doing it.
  * parse("iiisdosodddddiso") should return numbers [8, 64, 3600].
  *
  * @param data - string with coded message
- * @type {(data: string) => Array.<Object>}
- * @returns {Array.<Object>}
+ * @type {(data: string) => Array}
+ * @returns {Array}
  */
 function parse(data) {
 	const result = [];
@@ -85,9 +85,9 @@ function parse(data) {
 </details>
 
 <details>
-<summary>
-	<a href="https://www.codewars.com/kata/58884a65f06a3d3bef000049">Simple Fun #47: Stolen Lunch</a>
-</summary>
+	<summary>
+		<a href="https://www.codewars.com/kata/58884a65f06a3d3bef000049">Simple Fun #47: Stolen Lunch</a>
+	</summary>
 
 ```javascript
 /**
