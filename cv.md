@@ -3,7 +3,8 @@
 ## 📲 Contact Info
 
 Telegram: [@serezha_goncharov](https://t.me/serezha_goncharov)  
-E-mail: [blist.zheleza@gmail.com](mailto:blist.zheleza@gmail.com)
+E-mail: [blist.zheleza@gmail.com](mailto:blist.zheleza@gmail.com)  
+Discord server nickname: `Sergei G. (@serezha-goncharov)`
 
 ## 🙋‍♂️ About Me
 
