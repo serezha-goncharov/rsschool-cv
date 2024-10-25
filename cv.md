@@ -34,10 +34,7 @@ rather than check how others doing it.
 
 ## 👨‍💻 Code Examples
 
-<details>
-<summary>
-	<a href="https://www.codewars.com/kata/51e0007c1f9378fa810002a9">Make the Deadfish Swim</a>
-</summary>
+[Make the Deadfish Swim](https://www.codewars.com/kata/51e0007c1f9378fa810002a9)
 
 ```javascript
 /**
@@ -82,12 +79,7 @@ function parse(data) {
 }
 ```
 
-</details>
-
-<details>
-	<summary>
-		<a href="https://www.codewars.com/kata/58884a65f06a3d3bef000049">Simple Fun #47: Stolen Lunch</a>
-	</summary>
+[Simple Fun #47: Stolen Lunch](https://www.codewars.com/kata/58884a65f06a3d3bef000049)
 
 ```javascript
 /**
@@ -137,8 +129,6 @@ function stolenLunch(note) {
 	return noteArray.join("");
 }
 ```
-
-</details>
 
 ## 👨‍🚀 Work Experience
 
