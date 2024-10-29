@@ -12,91 +12,111 @@
     <title>CV-HTML</title>
 </head>
 <body>
-<header>
-    <div class="hero">
-        <h1 class="hero__title">Sergei Goncharov</h1>
-        <img class="hero__image" src="img/my_photo_512x512.png" alt="photo for CV">
-        <section class="hero_section">
-            <h2 class="hero_section__title">Contact Info</h2>
-            <ul class="contact__list">
-                <li class="contact__item">
-                    <span class="contact__title">Telegram:</span>
-                    <a href="https://t.me/serezha_goncharov" class="contact__link">@serezha_goncharov</a>
-                </li>
-                <li class="contact__item">
-                    <span class="contact__title">Email:</span>
-                    <a href="mailto:blist.zheleza@gmail.com" class="contact__link">blist.zheleza@gmail.com</a>
-                </li>
-            </ul>
-        </section>
+<div class="container">
+    <header>
+        <div class="hero">
+            <img class="hero__image" src="img/my_photo_512x512.png" alt="photo for CV">
+            <h1 class="hero__title">Sergei Goncharov</h1>
+            <p class="hero__profession">Frontend Developer</p>
+            <div class="hero__content">
+                <section class="section skills">
+                    <h2 class="section__title">Skills</h2>
+                    <ul class="section__list">
+                        <li class="section__item">Chrome Dev Tools</li>
+                        <li class="section__item">HTML, CSS, Javascript</li>
+                        <li class="section__item">Python, Aiogram 3, Telegram API</li>
+                        <li class="section__item">PostgresSQL, SQLite, SQL Alchemy</li>
+                        <li class="section__item">Agile/Scrum, Confluence, Jira</li>
+                        <li class="section__item">Cypress, Locust, Docker</li>
+                        <li class="section__item">Git, GitHub, Bitbucket</li>
+                    </ul>
+                </section>
 
-        <section class="hero_section">
-            <h2 class="hero_section__title">Skills</h2>
-            <ul class="hero_section__list">
-                <li class="section__item">Chrome Dev Tools</li>
-                <li class="section__item">HTML, CSS, Javascript</li>
-                <li class="section__item">Python, Aiogram 3, Telegram API</li>
-                <li class="section__item">PostgresSQL, SQLite, SQL Alchemy</li>
-                <li class="section__item">Agile/Scrum, Confluence, Jira</li>
-                <li class="section__item">Cypress, Locust, Docker</li>
-                <li class="section__item">Git, GitHub, Bitbucket</li>
-            </ul>
-        </section>
+                <section class="section languages">
+                    <h2 class="section__title">Languages</h2>
+                    <ul class="section__list">
+                        <li class="section__item">Russian</li>
+                        <li class="section__item">English</li>
+                        <li class="section__item">Chinese</li>
+                    </ul>
+                    <span class="section_description">Experience:</span>
+                    <ul class="section__list">
+                        <li class="section__item">Finished language school with focus on English and Chinese</li>
+                        <li class="section__item">Lived abroad around 2 years in total</li>
+                        <li class="section__item">Worked in international / multicultural company for 2+ years</li>
+                    </ul>
 
-        <section class="hero_section">
-            <h2 class="hero_section__title">Languages</h2>
-            <ul class="hero_section__list">
-                <li class="section__item">Russian</li>
-                <li class="section__item">English</li>
-                <li class="section__item">Chinese</li>
-            </ul>
-            <p class="hero_section_description"></p>
 
-        </section>
-    </div>
-</header>
-<main>
-    <section class="section">
-        <div class="container">
+                </section>
+
+                <section class="section contacts">
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <span class="contact__title">Telegram:</span>
+                            <a href="https://t.me/serezha_goncharov" class="contact__link">@serezha_goncharov</a>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__title">Email:</span>
+                            <a href="mailto:blist.zheleza@gmail.com" class="contact__link">blist.zheleza@gmail.com</a>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__title">Discord:</span>
+                            <a href="https://discordapp.com/users/1010424844027953204" class="contact__link">@serezha-goncharov</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section about">
             <h2 class="section__title">About Me</h2>
             <p class="about__description">I have 3+ years of working with web as a QA Engineer,
                 but I just get more fun to bring something new to the world,
                 rather than check how others doing it.
             </p>
-        </div>
-    </section>
+        </section>
 
-    <section class="section">
-        <div class="container">
+        <section class="section experience">
             <h2 class="section__title">Work Experience</h2>
             <ul class="section__list">
                 <li class="section__item">
                     <img class="company_logo" src="img/rainforest_life_logo.jpeg" alt="rainforest company logo">
-                    <p class="company_name">Rainforest</p>
-                    <p class="position">QA Engineer</p>
-                    <p class="period">3+ years</p>
-                    <p class="description"></p>
+                    <div class="item_content">
+                        <p class="company_name">Rainforest</p>
+                        <span class="position">QA Engineer</span>
+                        <span>||</span>
+                        <span class="period">3+ years</span>
+                        <p class="description">ut Lorem do ut qui ut amet eu reprehenderit aliqua proident amet aliquip
+                            eiusmod ipsum excepteur Lorem irure nulla dolor</p>
+                    </div>
                 </li>
                 <li class="section__item">
                     <img class="company_logo" src="img/iway_express_logo.jpeg" alt="iway company logo">
-                    <p class="company_name">i’way</p>
-                    <p class="position">QA Engineer</p>
-                    <p class="period">1+ year</p>
-                    <p class="description"></p>
+                    <div class="item_content">
+                        <p class="company_name">i’way</p>
+                        <span class="position">QA Engineer</span>
+                        <span>||</span>
+                        <span class="period">1+ year</span>
+                        <p class="description">ut Lorem do ut qui ut amet eu reprehenderit aliqua proident amet aliquip
+                            eiusmod ipsum excepteur Lorem irure nulla dolor</p>
+                    </div>
                 </li>
                 <li class="section__item">
                     <img class="company_logo" src="img/pogumax_logo.jpeg" alt="pogumax company logo">
-                    <p class="company_name">POGUMAX</p>
-                    <p class="position">Customer Support</p>
-                    <p class="period">2+ years</p>
-                    <p class="description"></p>
+                    <div class="item_content">
+                        <p class="company_name">POGUMAX</p>
+                        <span class="position">Customer Support</span>
+                        <span>||</span>
+                        <span class="period">2+ years</span>
+                        <p class="description">ut Lorem do ut qui ut amet eu reprehenderit aliqua proident amet aliquip
+                            eiusmod ipsum excepteur Lorem irure nulla dolor</p>
+                    </div>
                 </li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <section class="section">
-        <div class="container">
+        <section class="section education">
             <h2 class="section__title">Education</h2>
             <ul class="section__list">
                 <li class="section__item">
@@ -114,10 +134,25 @@
                     <span class="course__name">Higher Education - Electrical engineer</span>
                 </li>
             </ul>
-        </div>
-    </section>
-</main>
-<footer></footer>
+        </section>
+
+        <section class="section code_examples">
+            <h2 class="section__title">Code examples</h2>
+            <ul>
+                <li>Make the Deadfish Swim:
+                    <a href="https://www.codewars.com/kata/51e0007c1f9378fa810002a9">codewars</a>
+                    <span>||</span>
+                    <a href="img/code1.png">solution</a>
+                </li>
+                <li>Simple Fun #47: Stolen Lunch:
+                    <a href="https://www.codewars.com/kata/58884a65f06a3d3bef000049">codewars</a>
+                    <span>||</span>
+                    <a href="img/code2.png">solution</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</div>
 
 </body>
 </html>
