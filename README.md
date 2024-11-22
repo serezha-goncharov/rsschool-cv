@@ -1,1 +1,1 @@
-# rsschool-cv
+https://serezha-goncharov.github.io/rsschool-cv/index
